@@ -1,0 +1,125 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[top=0.75in, bottom=0.75in, left=0.50in, right=0.75in]{geometry}
+\usepackage{palatino}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage[colorlinks=true, urlcolor=blue, urlbordercolor={0 1 1}]{hyperref}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\lsep}{-0.5cm}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage} \hspace{0.2cm}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{\textwidth}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\indent \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+\multirow{3}{*}{\huge\textsc{\textbf{Abhijeet Dubey}}}	& \textbf{Email:} \href{mailto:dubey.abhijeet09@gmail.com}{dubey.abhijeet09@gmail.com}				\\
+							& \textbf{Website:} \href{https://github.com/dracarys09/?tab=repositories}{github.com/dracarys09/}	\\
+							& \textbf{Phone:} +91 947 949 5532
+\end{tabular*}
+
+\resheading{\textbf{ACADEMIC DETAILS}}\\[\lsep]
+\\ \\
+\indent \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cccc}
+\hline
+\textbf{Year}	&	\textbf{Degree / Certificate}			&	\textbf{University / School}	&	\textbf{CPI / \%}	\\
+\hline
+2019 (expected)	&	M. Tech (Computer Science and Engineering)	&	IIT Bombay			&	7.8 / 10		\\[0.15cm]
+2016		&	B. Tech (Computer Science and Engineering)	&	IIIT Jabalpur		&	8.4 / 10		\\[0.15cm]
+2012		&	Class XII (CBSE)				&	Maharishi Vidya Mandir, Jabalpur&	92.2 \%		\\[0.15cm]
+2010		&	Class X (CBSE)					&	Maharishi Vidya Mandir, Jabalpur&	9.2/10		\\
+\hline
+\end{tabular*}
+\\ \\
+\indent \resheading{\textbf{FIELDS OF INTEREST}}\\[\lsep]
+\\ \\
+\indent \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lll}
+  Machine Learning & Algorithms\\
+\end{tabular*}
+\\
+\indent \resheading{\textbf{INTERNSHIPS}}\\[\lsep]
+\\ \\
+\indent\small{\textbf{Oracle Corporation}}	\hfill	\small{\textit{(Jun'15 - Nov'15)}} \\
+\indent\small{\textbf{Software Developer, Intern}}
+\begin{itemize}
+\item \noindent \small{Used tabular testing tools like Synergy to develop robust test scripts and produced better results in less time.}
+\\[-0.5cm]
+\item \noindent \small{Designed and developed test suite to perform smoke testing of Oracle's SIM software.}
+\end{itemize}
+
+\indent \small{\textbf{Uddhat Softwares Pvt. Ltd.}}	\hfill	\small{\textit{(Jun'14 - Jul'14)}} \\
+\indent \small{\textbf{Web Developer, Intern}}
+\begin{itemize}
+\item \noindent \small{Developed an online marketplace offering tasks and services.}
+\\[-0.5cm]
+\item \noindent \small{\textit{Technologies:} PHP, MySQL, HTML, CSS, Bootstrap3, Laravel4, Javascript}
+\end{itemize}
+
+\indent \resheading{\textbf{PROJECTS}}\\[\lsep]
+\\ \\
+\indent\small{\textbf{coala (open source contributor)}}	\hfill	\small{\textit{(Dec'16 - Present)}}
+\begin{itemize}
+ \item As a part of development team of coala(open source software for static code analysis), my role is to add new features and improve existing functionality of coala.
+\end{itemize}
+
+\indent\small{\textbf{Intelligent Carrom Player}}	\hfill	\small{\textit{(Oct'16 - Nov'16)}}
+\begin{itemize}
+ \item Used continuous actor-critic methods and reinforcement learning techniques to develop an agent that can play carrom both in one player and two player setting.
+ \item \textit{Project Report: } \href{https://goo.gl/2Csvi8}{Designing an Intelligent Carrom Player}
+\end{itemize}
+
+\indent\small{\textbf{OJ (ACM ICPC Style Online Judge)}}	\hfill	\small{\textit{(Oct'16 - Nov'16)}}
+\begin{itemize}
+ \item Used MVC architecture and Laravel(PHP framework) along with MaterializeCSS to develop ACM ICPC style online judge.
+ \item \textit{Technologies: } Laravel, materializecss, MySQL, PHP, HTML, CSS, Javascript, Git
+ \item \href{https://github.com/dracarys09/oj}{https://github.com/dracarys09/oj} 
+\end{itemize}
+
+\indent\small{\textbf{Recommending Accounts to Twitter Users}}	\hfill	\small{\textit{(Mar'15 - Apr'15)}}
+\begin{itemize}
+ \item Used machine learning techniques like collaborative filtering and clustering to develop a smart web interface which suggests interesting twitter accounts to follow.
+ \item Used 3-NN to predict 3 most interesting accounts to follow.
+ \item \textit{Technologies: } Machine Learning, PHP, Bootstrap, MySQL
+\end{itemize}
+
+\indent\small{\textbf{Quiziesta (self-project)}}	\hfill	\small{\textit{(Dec'14)}}
+\begin{itemize}
+ \item Used MVC architecture to develop a web application in Laravel for course management.
+ \item \textit{Technologies: } Laravel, Bootstrap3, HTML, CSS, PHP, Javascript
+ \item \href{https://github.com/dracarys09/Quiziesta}{https://github.com/dracarys09/Quiziesta}
+\end{itemize}
+
+\resheading{\textbf{IMPORTANT COURSES UNDERTAKEN}}\\[\lsep]
+\\ \\
+\indent \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lll}
+Foundations of Machine Learning		&	Database Management Systems	&	Foundations of Intelligent \& Learning Agents \\
+Design \& Analysis of Algorithms	&	Linear Algebra			&	Game Theory
+\end{tabular*}
+
+\resheading{\textbf{ACHIEVEMENTS}}\\[\lsep]
+\\
+\begin{itemize}
+ \item \textbf{Won Bronze Medal} in National Round of iURL, held at IIT Bombay in March 2014.
+ \item Awarded \textbf{Certificate of Merit} two times for exceptional academic achievements during freshmen year and sophomore year.
+ \item \textbf{1}$^{st}$ place in Obfuscated 2015 (programming competition).
+ \item My team (Paradigm Shift) was ranked \textbf{748} out of more than 32000 teams in TCS CodeVita 2015.
+ \item Qualified for onsite regionals of \textbf{ACM ICPC} for Amritapuri Regionals in 2015.
+\end{itemize}
+
+\end{document}
