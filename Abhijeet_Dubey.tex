@@ -40,7 +40,7 @@
 \hline
 \textbf{Year}	&	\textbf{Degree / Certificate}			&	\textbf{University / School}	&	\textbf{CPI / \%}	\\
 \hline
-2019 (expected)	&	M. Tech (Computer Science and Engineering)	&	IIT Bombay			&	7.8 / 10		\\[0.15cm]
+2019 (expected)	&	M. Tech (Computer Science and Engineering)	&	IIT Bombay			&	8.05 / 10		\\[0.15cm]
 2016		&	B. Tech (Computer Science and Engineering)	&	IIIT Jabalpur		&	8.4 / 10		\\[0.15cm]
 2012		&	Class XII (CBSE)				&	Maharishi Vidya Mandir, Jabalpur&	92.2 \%		\\[0.15cm]
 2010		&	Class X (CBSE)					&	Maharishi Vidya Mandir, Jabalpur&	9.2/10		\\
@@ -55,6 +55,15 @@
 \\
 \indent \resheading{\textbf{INTERNSHIPS}}\\[\lsep]
 \\ \\
+\indent\small{\textbf{Google Summer of Code}}	\hfill	\small{\textit{(Ongoing)}} \\
+\indent\small{\textbf{Software Developer, Intern}}
+\begin{itemize}
+\item \noindent \small{Currently working with \textit{The Linux Foundation} and implementing a common print dialog that will enable users to print documents easily.}
+\\[-0.5cm]
+\item \noindent \small{Developing a backend for common printing dialog using google cloud print API to facilitate printing on google cloud printers from anywhere using any device.}
+\item \noindent \small{\textit{Project Link:} \href{https://goo.gl/dr7YQG}{Google Cloud Print Backend} }
+\end{itemize}
+
 \indent\small{\textbf{Oracle Corporation}}	\hfill	\small{\textit{(Jun'15 - Nov'15)}} \\
 \indent\small{\textbf{Software Developer, Intern}}
 \begin{itemize}
@@ -73,21 +82,36 @@
 
 \indent \resheading{\textbf{PROJECTS}}\\[\lsep]
 \\ \\
-\indent\small{\textbf{coala (open source contributor)}}	\hfill	\small{\textit{(Dec'16 - Present)}}
+\indent\small{\textbf{Music Generation Using LSTM}}	\hfill	\small{\textit{(Feb'17 - Apr'17)}}
 \begin{itemize}
- \item As a part of development team of coala(open source software for static code analysis), my role is to add new features and improve existing functionality of coala.
+ \item Used RNN and LSTM based approach to synthesize music frames for Piano music and Electronic Dance Music (EDM).
+ \item Used Tensorflow to train LSTM based model on audio samples to synthesize music from two widely different genres using their STFT features.
+ \item Used AdaDelta optimization method to minimize mean squared loss between the ground truth feature vector and the predicted feature vector.
+ \item \textit{Project Report: } \href{https://goo.gl/wSzUxP}{Music Generation using LSTM}
 \end{itemize}
 
-\indent\small{\textbf{Intelligent Carrom Player}}	\hfill	\small{\textit{(Oct'16 - Nov'16)}}
+\indent\small{\textbf{Intelligent Carrom Player}} \hfill	\small{\textit{(Oct'16 - Nov'16)}}
 \begin{itemize}
- \item Used continuous actor-critic methods and reinforcement learning techniques to develop an agent that can play carrom both in one player and two player setting.
+ \item Used continuous actor-critic methods and reinforcement learning techniques and developed an agent that can play carrom both in one player and two player setting.
+ \item Implemented a policy network that takes current state as input and and produces three action components namely striker's position, angle and force as outputs.
+ \item Our best agent clears the board in 23 turns on average in single player mode.
  \item \textit{Project Report: } \href{https://goo.gl/2Csvi8}{Designing an Intelligent Carrom Player}
 \end{itemize}
+
+\indent\small{\textbf{Music Genre Classification}}	\hfill	\small{\textit{(Feb'17 - Apr'17)}}
+\begin{itemize}
+ \item Used classifiers like Decision Tree, Random Forests, Multi Class Neural Network to classify music genres. 
+ \item Trained our models on \textit{GTZAN} dataset consisting of 1000 audio samples of 30 seconds each.
+ \item We were able to achieve 63.5\% accuracy using only timbral features which was an improvement of 2.5\% over the original \textit{GTZAN Music Genre Classification Paper}. 
+ \item \textit{Project Report: } \href{https://goo.gl/dTFD85}{Music Genre Classification}
+\newline
+\newline
+\end{itemize}
+
 
 \indent\small{\textbf{OJ (ACM ICPC Style Online Judge)}}	\hfill	\small{\textit{(Oct'16 - Nov'16)}}
 \begin{itemize}
  \item Used MVC architecture and Laravel(PHP framework) along with MaterializeCSS to develop ACM ICPC style online judge.
- \item \textit{Technologies: } Laravel, materializecss, MySQL, PHP, HTML, CSS, Javascript, Git
  \item \href{https://github.com/dracarys09/oj}{https://github.com/dracarys09/oj} 
 \end{itemize}
 
@@ -95,31 +119,35 @@
 \begin{itemize}
  \item Used machine learning techniques like collaborative filtering and clustering to develop a smart web interface which suggests interesting twitter accounts to follow.
  \item Used 3-NN to predict 3 most interesting accounts to follow.
- \item \textit{Technologies: } Machine Learning, PHP, Bootstrap, MySQL
 \end{itemize}
 
-\indent\small{\textbf{Quiziesta (self-project)}}	\hfill	\small{\textit{(Dec'14)}}
-\begin{itemize}
- \item Used MVC architecture to develop a web application in Laravel for course management.
- \item \textit{Technologies: } Laravel, Bootstrap3, HTML, CSS, PHP, Javascript
- \item \href{https://github.com/dracarys09/Quiziesta}{https://github.com/dracarys09/Quiziesta}
-\end{itemize}
 
 \resheading{\textbf{IMPORTANT COURSES UNDERTAKEN}}\\[\lsep]
 \\ \\
 \indent \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lll}
-Foundations of Machine Learning		&	Database Management Systems	&	Foundations of Intelligent \& Learning Agents \\
+Foundations of Machine Learning		&	Automatic Speech Recognition	&	Foundations of Intelligent \& Learning Agents \\
 Design \& Analysis of Algorithms	&	Linear Algebra			&	Game Theory
 \end{tabular*}
+
+\resheading{\textbf{TOOLS \& LIBRARIES}}\\[\lsep]
+\\
+\begin{itemize}
+ \item \textbf{Languages: } C/C++(advanced), Python(advanced), PHP(beginner), Javascript(beginner), Haskell(beginner)
+ \item \textbf{Frameworks: } Tensorflow, Laravel
+ \item \textbf{Tools: } git, sed, awk, gdb, GnomeBuilder, \LaTeX
+ 
+\end{itemize}
 
 \resheading{\textbf{ACHIEVEMENTS}}\\[\lsep]
 \\
 \begin{itemize}
- \item \textbf{Won Bronze Medal} in National Round of iURL, held at IIT Bombay in March 2014.
+ \item Qualified for onsite regionals of \textbf{ACM ICPC} for Amritapuri Regionals in 2015.
  \item Awarded \textbf{Certificate of Merit} two times for exceptional academic achievements during freshmen year and sophomore year.
  \item \textbf{1}$^{st}$ place in Obfuscated 2015 (programming competition).
+ \item \textbf{Won Bronze Medal} in National Round of iURL, held at IIT Bombay in March 2014.
  \item My team (Paradigm Shift) was ranked \textbf{748} out of more than 32000 teams in TCS CodeVita 2015.
- \item Qualified for onsite regionals of \textbf{ACM ICPC} for Amritapuri Regionals in 2015.
+ 
 \end{itemize}
+
 
 \end{document}
